@@ -38,7 +38,7 @@ public class smallest {
     public static int smallest(int numbers[]){
         int smallestl = Integer.MAX_VALUE; ///-infinity
         for(int i =0;i<numbers.length; i++){
-            if(smallestl>numbers[i]){
+            if(smallestl>snumbers[i]){
                 smallestl = numbers[i];
             }
             
